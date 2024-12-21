@@ -1,0 +1,92 @@
+body {
+    background-color: #edefee;
+    font-family: Arial, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.promotion {
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.navbar li:not(:last-child) {
+    margin-right: 30px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer > div > img {
+    width: 5rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    justify-self: end;
+}
